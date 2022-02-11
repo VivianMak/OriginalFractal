@@ -2,7 +2,7 @@ int startX = 250;
 int startY = 500;
 int endX = 250;
 int endY = 400;
-int count = 5;
+int count = 7;
 float s = 4;
 
 float r2; 
@@ -12,7 +12,7 @@ public void setup()
 {
   size(500,500);
   //size(1000,1000);
-  background(26,71,42);
+  //background(26,71,42);
   strokeWeight(3); //((int)(Math.random()*6)+1);
   //frameRate(10);
   stroke(103,192,92);
@@ -20,16 +20,9 @@ public void setup()
 //rise/run = 4/5
 public void draw() 
 {
-  
+  background(26,71,42);
   line(startX, startY, endX, endY);
-  //drawBranch(endX, endY, 100, r2, count);
-  
-  if(count > 0){
-    //background(0);
-    drawBranch(endX, endY, 100, r2, count); //PI/4 //map(mouseX,0.0,(float)width/2,0.0,PI/2), 10);//r2, 10); 
-    //background(26,71,42);
-    count--;  
-  }
+  drawBranch(endX, endY, 150, r2, count);
 }
 
 
