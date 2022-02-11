@@ -1,7 +1,7 @@
 int startX = 250;
 int startY = 500;
 int endX = 250;
-int endY = 400;
+int endY = 450;
 int count = 7;
 float s = 4;
 
