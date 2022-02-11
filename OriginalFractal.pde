@@ -5,7 +5,7 @@ int endY = 450;
 int count = 7;
 float s = 4;
 
-float r2; 
+float r2 = PI/4; 
 
 
 public void setup() 
