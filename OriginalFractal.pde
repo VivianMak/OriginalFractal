@@ -16,20 +16,15 @@ void setup(){
 
 void draw(){ //recursion inside draw() draws it everytime = animation
   
-  //stroke(219,196,132);
+  stroke(219,196,132);
   //stroke(c);
-  stroke(color((int)(Math.random()*256)+1,(int)(Math.random()*256)+1,(int)(Math.random()*256)+1));
+  //stroke(color((int)(Math.random()*256)+1,(int)(Math.random()*256)+1,(int)(Math.random()*256)+1));
   noFill();
   if(side2 > 5){ // base case
       side2 -= 10;
 
       drawCircle(side2, x2+len, y2+len);
       drawCircle(side2, x2-len, y2-len);
-      
-      //drawCircle(350, x2+len*2, y2+len*2);
-      //drawCircle(350, x2-len*2, y2-len*2);
-     
-     //drawCircle(50, x2+(int)(Math.random()*2)+2, y2+(int)(Math.random()*2)+2);
 
       drawCircle(50, x2+len, y2+len);
       drawCircle(50, x2-len, y2-len);
