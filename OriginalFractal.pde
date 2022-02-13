@@ -42,14 +42,9 @@ void draw(){ //recursion inside draw() draws it everytime = animation
       drawCircle(350, x2+len*2, y2-len*2);
       
       
-      len +=3;//2;//5; //DIFFERENCE;
+      len +=3;   //2;5;DIFFERENCE;
   }
 }
-
-public void mousePressed(){
- 
-}
-
 
 public void drawCircle(int side, int x, int y){ //change x and y pos
   circle(x,y,side);
