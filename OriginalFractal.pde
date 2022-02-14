@@ -16,8 +16,8 @@ void setup(){
 
 void draw(){ //recursion inside draw() draws it everytime = animation
   
-  stroke(219,196,132);
-  //stroke(c);
+  //stroke(219,196,132);
+  stroke(c);
   //stroke(color((int)(Math.random()*256)+1,(int)(Math.random()*256)+1,(int)(Math.random()*256)+1));
   noFill();
   if(side2 > 5){ // base case
