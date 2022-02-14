@@ -25,7 +25,7 @@ void draw(){ //recursion inside draw() draws it everytime = animation
 
       drawCircle(side2, x2+len, y2+len);
       drawCircle(side2, x2-len, y2-len);
-/*      
+      
       drawCircle(50, x2+len, y2+len);
       drawCircle(50, x2-len, y2-len);
       drawCircle(50, x2+len, y2-len);
@@ -35,12 +35,12 @@ void draw(){ //recursion inside draw() draws it everytime = animation
       drawCircle(350, x2-len*2, y2-len*2);
       drawCircle(350, x2-len*2, y2+len*2);
       drawCircle(350, x2+len*2, y2-len*2);
-*/      
+      
       
       len +=3;   //2;5;DIFFERENCE;
   }
 }
 
 public void drawCircle(int side, int x, int y){ //change x and y pos
-  circle(x,y,side);
+ ellipse(x,y,side,side);
 }
